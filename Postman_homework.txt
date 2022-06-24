@@ -25,7 +25,7 @@ response:
 3.VARIEBLE - test | CURRENT VALUE - 162.55.220.72:5005
 4.Нажать Save
 5.Collections --> Group_30 --> Add Request
-6.Нажать Environments --> выбрать test
+6.Нажать Environments --> выбрать  environments 
 7.Ввести URL {{test}}/get_method
 8.Вкладка Params key - name, value - str | key - age, value - int
 9.Нажать save и send
