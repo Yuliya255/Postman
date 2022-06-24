@@ -1,0 +1,23 @@
+ 1. Создать окружение
+ New ----> Environments ----> name "test" 
+
+ 2. Создать в нем переменные name, age, salary, weight
+ 3. Записать в них значения, которые вы используете в запросах
+ VARIEBLE -  name | CURRENT VALUE - Yuliia
+ VARIEBLE -  age | CURRENT VALUE - 29
+ VARIEBLE -  salary | CURRENT VALUE - 1500
+ VARIEBLE -  weight | CURRENT VALUE - 10
+
+ 4. Заменить в запросах текстом прописанные значения на вызов переменной окружения
+ Выбрать окружение  ----> test
+ Ввести URL http://162.55.220.72:5005
+ В запросах заменить значение "value" на {{название переменной}}
+ 
+ 5. Создать переменную url
+ Environments ----> test ---> Add a new variable ----> url
+
+ 6. Записать в нее IP + port (всё до эндпоинта)
+ CURRENT VALUE - 162.55.220.72:5005
+ 
+ 7. Заменить в запросах ip и порт на переменную
+ В запросах заменить "http://162.55.220.72:5005" на {{url}}
